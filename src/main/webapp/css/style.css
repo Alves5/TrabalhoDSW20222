@@ -1,0 +1,130 @@
+body {
+	margin: 0px;
+}
+h1{
+	color:#0000CD;
+}
+.label{
+	color: #0000FF;
+	font-weight: bold;
+}
+.linksIniciais {
+	width: 100vw;
+	height: 100vh;
+	background: #6C7A89;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.box {
+	width: 300px;
+	height: 300px;
+	border-radius: 5px;
+	background: #fff;
+	text-align: center;
+}
+.box > ul {
+	list-style: none;
+    display: inline-block;
+ 	padding-top: 6rem;
+ 	padding-right: 3rem;
+
+ }
+.box > ul > li{
+	font-size: 25px;
+	margin-bottom: 3px;
+}
+.box > ul > li > a{
+	text-decoration: none;
+	color: #000;
+}
+
+.formJogo {
+	width: 100vw;
+	height: 100vh;
+	background: #A52A2A;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.jogo {
+	width: 300px;
+	height: 300px;
+	border-radius: 5px;
+	background: #fff;
+	text-align: center;
+}
+.jogo > form > table {
+    display: inline-block;
+ 	padding-top: 1rem;
+ 	padding-right: 0.6rem;
+
+ }
+ #labelNum{
+ 	font-size: 20px;
+ }
+ #varInput{
+ 	width: 200px;
+ 	height: 35px;
+ 	border-radius: 5px;
+ }
+ #trInputSubmit{
+ 	height: 95px;
+ }
+ #trInputSubmit > td > input{
+ 	width: 80px;
+ 	height: 35px;
+ }
+ .resultadoSorteio {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#h1Resultado{
+	font-size: 70px;
+}
+.boxLink > a{
+	color: #000;
+	font-size: 25px;
+	text-decoration: none;
+}
+.formCadastro {
+	width: 100vw;
+	height: 100vh;
+	background: #6C7A89;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.boxCadastro {
+	width: 470px;
+	height: 250px;
+	border-radius: 5px;
+	background: #fff;
+	text-align: center;
+}
+.boxCadastro > form > table {
+    display: inline-block;
+ 	padding-top: 5px;
+ 	padding-left: 3px;
+ }
+ .labelCad{
+ 	font-size: 20px;
+ }
+ .varInputCad{
+ 	margin-right: 5px;
+ 	width: 200px;
+ 	height: 35px;
+ 	border-radius: 5px;
+ }
+ #tdInputSubmit > input{
+ 	margin-top: 1.5rem;
+ 	width: 80px;
+ 	height: 35px;
+ }

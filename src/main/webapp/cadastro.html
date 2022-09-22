@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Página de cadastro</title>
+</head>
+<body>
+	<div class="formCadastro">
+		<div class="boxCadastro">
+			<form action="cadastroServlet">
+				<h1>Cadastro de vacinas</h1>
+				<table>
+					<tfoot>
+						<tr><td id="tdInputSubmit" colspan="2"><input type="submit" value="Enviar"></td></tr>
+					</tfoot>
+					<tr>
+						<th><label class="label labelCad" for="cadInput1">Vacina tipo 1</label></th>
+						<th><label class="label labelCad" for="cadInput2">Vacina tipo 2</label></th>
+					</tr>
+					<tr>
+						<td><input class="varInputCad" type="text" id="cadInput1" name="variavel1" required="required"></td>
+						<td><input class="varInputCad" type="text" id="cadInput2" name="variavel2" required="required"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

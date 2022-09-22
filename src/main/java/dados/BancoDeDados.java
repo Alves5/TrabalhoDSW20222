@@ -17,7 +17,7 @@ public class BancoDeDados {
 	public static String select(){
 		String retorno = "";
 		for (Cadastro cad : bd) {
-			retorno += "<tr><td>" + cad.getVariavel1() + "</td><td>" + cad.getVariavel2() + "</td></tr>";  
+			retorno += "<li>" + cad.getVariavel1() + "</li><li>" + cad.getVariavel2() + "</li>";  
 		}
 		return retorno;
 	}

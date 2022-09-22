@@ -2,13 +2,27 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <title>Página do jogo</title>
 </head>
 <body>
-	<form action="numeroJogo">
-		<label for="varInput">Digite um número entre 1 e 5</label><br/>
-		<input type="text" id="varInput" placeholder="Entre 1 e 5" maxlength="1" name="numero"><br/>
-		<input type="submit" value="Enviar">
-	</form>
+<div class="formJogo">
+	<div class="jogo">
+		<form action="numeroJogo">
+		<h1>Tente a sua sorte</h1>
+			<table>
+				<tr>
+					<th><label class="label" id="labelNum" for="varInput">Número</label></th>
+				</tr>
+				<tr>
+					<td><input type="text" id="varInput" maxlength="1" name="numero" required="required"></td>
+				</tr>
+				<tr id="trInputSubmit">
+					<td><input type="submit" id="varInputSubmit" value="Enviar"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
 </body>
 </html>
