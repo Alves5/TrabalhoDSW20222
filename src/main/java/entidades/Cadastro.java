@@ -2,8 +2,8 @@ package entidades;
 
 public class Cadastro {
 	private Integer id;
-	private String variavel1;
-	private String variavel2;
+	private String luva;
+	private String mascara;
 	
 	public Integer getId() {
 		return id;
@@ -11,17 +11,17 @@ public class Cadastro {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getVariavel1() {
-		return variavel1;
+	public String getLuva() {
+		return luva;
 	}
-	public void setVariavel1(String variavel1) {
-		this.variavel1 = variavel1;
+	public void setLuva(String luva) {
+		this.luva = luva;
 	}
-	public String getVariavel2() {
-		return variavel2;
+	public String getMascara() {
+		return mascara;
 	}
-	public void setVariavel2(String variavel2) {
-		this.variavel2 = variavel2;
+	public void setMascara(String mascara) {
+		this.mascara = mascara;
 	}
 	
 }

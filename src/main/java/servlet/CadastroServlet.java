@@ -16,8 +16,8 @@ public class CadastroServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		Cadastro c = new Cadastro();
-		c.setVariavel1(req.getParameter("variavel1"));
-		c.setVariavel2(req.getParameter("variavel2"));
+		c.setLuva(req.getParameter("luva"));
+		c.setMascara(req.getParameter("mascara"));
 		
 		//Inserindo no "Banco de Dados"
 		BancoDeDados.insert(c);
@@ -37,7 +37,7 @@ public class CadastroServlet extends HttpServlet{
 				escritor.write("<ol>"+BancoDeDados.select()+"</ol>");
 				escritor.write("</div></div>");
 				escritor.write("</body>");
-				escritor.write("<script>window.onload = function lancarMensagem(){alert(\"Vacinas cadastradas com sucesso!\")}</script>");
+				escritor.write("<script>window.onload = function lancarMensagem(){alert(\"EPIs cadastrados com sucesso!\")}</script>");
 				escritor.write("</html>");
 	}
 }

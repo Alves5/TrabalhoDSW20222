@@ -7,7 +7,6 @@ import java.util.List;
 import entidades.Cadastro;
 
 public class BancoDeDados {
-	private static Integer geradorDeId;
 	private static List<Cadastro> bd = new ArrayList<Cadastro>();
 	
 	public static void insert(Cadastro c) {
@@ -17,7 +16,7 @@ public class BancoDeDados {
 	public static String select(){
 		String retorno = "";
 		for (Cadastro cad : bd) {
-			retorno += "<li>" + cad.getVariavel1() + "</li><li>" + cad.getVariavel2() + "</li>";  
+			retorno += "<li>" + cad.getLuva() + "</li><li>" + cad.getMascara() + "</li>";  
 		}
 		return retorno;
 	}
