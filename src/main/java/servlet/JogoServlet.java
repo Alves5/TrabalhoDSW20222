@@ -35,7 +35,7 @@ public class JogoServlet extends HttpServlet{
 		escritor.write("<div class=\"boxResultado\">");
 		escritor.write("<h1 id=\"h1Resultado\">"+resultado+"</h1>");
 		escritor.write("</div>");
-		escritor.write("<div class=\"boxLink\"><a href=\"index.html\">voltar</a></div>");
+		escritor.write("<div><a class=\"linkVoltar\" href=\"index.html\">voltar</a></div>");
 		escritor.write("</div>");
 		escritor.write("</body>");
 		escritor.write("</html>");

@@ -88,7 +88,7 @@ h1{
 #h1Resultado{
 	font-size: 70px;
 }
-.boxLink > a{
+.linkVoltar{
 	color: #000;
 	font-size: 25px;
 	text-decoration: none;
@@ -127,4 +127,21 @@ h1{
  	margin-top: 1.5rem;
  	width: 80px;
  	height: 35px;
+ }
+ .listaOrdenada{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+ }
+ #linkCadastro{
+ 	margin: 5px 0 0 8px; 
+ 	float: left;
+ }
+ .boxOrdenada{
+  	display: inline-block;
+ 	padding-right: 3rem;
+ }
+ .boxOrdenada > ol > li{
+ 	font-size: 17px;
  }
