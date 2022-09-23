@@ -15,7 +15,6 @@ public class JogoServlet extends HttpServlet{
 		int numero = Integer.parseInt(req.getParameter("numero"));
 		int rand = (int)(Math.random()*(6 - 1)+1);
 		String resultado;
-		System.out.println(rand);
 		if(numero == rand) {
 			resultado = "Você acertou!";
 		}else {
